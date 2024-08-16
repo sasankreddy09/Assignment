@@ -13,6 +13,213 @@
         <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <!-- font awesome links -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <style>
+            /* This is the body styling */
+    body{
+        background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        fon/* This is the body styling */
+    body{
+        background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+        font-family: "Inter", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        padding: 1.5rem;
+        padding-left: 2rem;
+        color: white !important; 
+        transition: background-color 0.3s, color 0.3s;
+    }
+    h1{
+        text-align: center;
+    }
+    /* This is the whole navigation bar styling */
+    .navbar{
+        background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+        border-radius: 0.2rem;
+        opacity: 0.95;
+    }
+    /* This is for the toggling button which is for responsivenesss */
+    .navbar-toggler{
+        background-color: white !important;
+    }
+    a{
+        color: white !important;
+    }
+
+    /* This is the branding styling */
+    .navbar-brand{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    /* This is the styling for the signup/login button */
+    .btn{
+        background:linear-gradient(45deg, #726bff, #57b6fe);
+        color: rgb(255, 255, 255,0.5) !important;
+    }
+    .btn:hover{
+        color: rgb(255, 255, 255,1) !important;
+    }
+    #toggleButton{
+        background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+
+    }
+    /* This is for logo styling */
+    .logo{
+        width: 3rem;
+        height: 3rem;
+    }
+    .left{
+        margin-left: auto;
+    }
+    /* Itmes styling */
+    .navbar .navbar-nav a {
+        text-decoration: none;
+        padding: 10px 0;
+        position: relative;
+        display: inline-block;
+        transition: color 0.3s;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    /* ::before is a pseudo-element is used to create a bottom border. */
+    .navbar .navbar-nav a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: purple;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar .navbar-nav a:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    .light-mode{
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)    !important;
+        color: black !important;
+    }
+    .contains{
+        display: flex;
+        flex-direction: row;
+    }
+    .content{
+        width: 95%;
+        scrollbar-width: 2px;
+    }
+    .modes{
+        position: fixed;
+        top: 7rem;
+        right: 0.2rem;
+        z-index: 1000;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }t-style: normal;
+        padding: 1.5rem;
+        padding-left: 2rem;
+        color: white !important; 
+        transition: background-color 0.3s, color 0.3s;
+    }
+    h1{
+        text-align: center;
+    }
+    /* This is the whole navigation bar styling */
+    .navbar{
+        background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+        border-radius: 0.2rem;
+        opacity: 0.95;
+    }
+    /* This is for the toggling button which is for responsivenesss */
+    .navbar-toggler{
+        background-color: white !important;
+    }
+    a{
+        color: white !important;
+    }
+
+    /* This is the branding styling */
+    .navbar-brand{
+        font-size: 1.7rem;
+        font-weight: 600;
+    }
+    /* This is the styling for the signup/login button */
+    .btn{
+        background:linear-gradient(45deg, #726bff, #57b6fe);
+        color: rgb(255, 255, 255,0.5) !important;
+    }
+    .btn:hover{
+        color: rgb(255, 255, 255,1) !important;
+    }
+    #toggleButton{
+        background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+
+    }
+    /* This is for logo styling */
+    .logo{
+        width: 3rem;
+        height: 3rem;
+    }
+    .left{
+        margin-left: auto;
+    }
+    /* Itmes styling */
+    .navbar .navbar-nav a {
+        text-decoration: none;
+        padding: 10px 0;
+        position: relative;
+        display: inline-block;
+        transition: color 0.3s;
+        font-size: 0.8rem;
+        font-weight: 300;
+    }
+    /* ::before is a pseudo-element is used to create a bottom border. */
+    .navbar .navbar-nav a::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: purple;
+        visibility: hidden;
+        transform: scaleX(0);
+        transition: all 0.3s ease-in-out;
+    }
+
+    .navbar .navbar-nav a:hover::before {
+        visibility: visible;
+        transform: scaleX(1);
+    }
+    .light-mode{
+        background-color: #8EC5FC;
+        background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)    !important;
+        color: black !important;
+    }
+    .contains{
+        display: flex;
+        flex-direction: row;
+    }
+    .content{
+        width: 95%;
+        scrollbar-width: 2px;
+    }
+    .modes{
+        position: fixed;
+        top: 7rem;
+        right: 0.2rem;
+        z-index: 1000;
+        border-radius: 50%;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+    }
+    </style>
         <!-- cdn link of bootstrap -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
       </head>
@@ -97,6 +304,33 @@
             </button>
         </div>
     </div>
-      <script src="app.js"></script>
+      <script >
+        // Get the toggle button element by its ID
+        const toggleButton = document.getElementById('toggleButton');
+
+        // Get the body element of the document
+        const body = document.body;
+
+        // Get the icon element inside the button by its ID
+        const icon = document.getElementById('icon');
+
+        // Add a click event listener to the toggle button
+        toggleButton.addEventListener('click', function () {
+            // Toggle the 'light-mode' class on the body element
+            body.classList.toggle('light-mode');
+
+            // Check if the body element has the 'light-mode' class
+            if (body.classList.contains('light-mode')) {
+                // If 'light-mode' is present, change the icon to a sun (for light mode)
+                icon.classList.remove('fa-moon'); // Remove the moon icon class
+                icon.classList.add('fa-sun');    // Add the sun icon class
+            } else {
+                // If 'light-mode' is not present, change the icon to a moon (for dark mode)
+                icon.classList.remove('fa-sun'); // Remove the sun icon class
+                icon.classList.add('fa-moon');    // Add the moon icon class
+            }
+        });
+
+      </script>
 </body>
 </html>
