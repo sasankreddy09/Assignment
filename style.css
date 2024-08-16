@@ -1,0 +1,103 @@
+/* This is the body styling */
+body{
+    background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 1.5rem;
+    padding-left: 2rem;
+    color: white !important; 
+    transition: background-color 0.3s, color 0.3s;
+}
+h1{
+    text-align: center;
+}
+/* This is the whole navigation bar styling */
+.navbar{
+    background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+    border-radius: 0.2rem;
+    opacity: 0.95;
+}
+/* This is for the toggling button which is for responsivenesss */
+.navbar-toggler{
+    background-color: white !important;
+}
+a{
+    color: white !important;
+}
+
+/* This is the branding styling */
+.navbar-brand{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+/* This is the styling for the signup/login button */
+.btn{
+    background:linear-gradient(45deg, #726bff, #57b6fe);
+    color: rgb(255, 255, 255,0.5) !important;
+}
+.btn:hover{
+    color: rgb(255, 255, 255,1) !important;
+}
+#toggleButton{
+    background: linear-gradient(135deg, #1e0533, #110a1f) !important;
+
+}
+/* This is for logo styling */
+.logo{
+    width: 3rem;
+    height: 3rem;
+}
+.left{
+    margin-left: auto;
+}
+/* Itmes styling */
+.navbar .navbar-nav a {
+    text-decoration: none;
+    padding: 10px 0;
+    position: relative;
+    display: inline-block;
+    transition: color 0.3s;
+    font-size: 0.8rem;
+    font-weight: 300;
+}
+/* ::before is a pseudo-element is used to create a bottom border. */
+.navbar .navbar-nav a::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: purple;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar .navbar-nav a:hover::before {
+    visibility: visible;
+    transform: scaleX(1);
+}
+.light-mode{
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%)    !important;
+    color: black !important;
+}
+.contains{
+    display: flex;
+    flex-direction: row;
+}
+.content{
+    width: 95%;
+    scrollbar-width: 2px;
+}
+.modes{
+    position: fixed;
+    top: 7rem;
+    right: 0.2rem;
+    z-index: 1000;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
